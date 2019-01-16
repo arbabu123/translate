@@ -105,6 +105,7 @@ environment with Python 3.6, you can install one via [Miniconda3](https://conda.
 
   ```
   pip uninstall -y pytorch-translate
+  # if this command fails due to permissions, try rerunning it with sudo
   python3 setup.py build develop
   pushd pytorch_translate/cpp
 
